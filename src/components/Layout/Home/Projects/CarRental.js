@@ -12,10 +12,10 @@ const CarRental = () => {
     <Container className={classes.container} id="project">
       <Container className={classes['inner-container']}>
         <Row className="justify-content-md-center">
-          <Col xs={5} className={classes.colimg}>
+          <Col className={classes.colimg}>
             <img src={crypto} alt="workplace" className={classes.workplace} />
           </Col>
-          <Col xs={5} className={classes.col}>
+          <Col className={classes.col}>
             <h3 className={classes['header-project']}>CAR RENTAL 🚓</h3>
             <p className={classes['project-info']}>
               Car Rental is a website that allows the user to rent cars for

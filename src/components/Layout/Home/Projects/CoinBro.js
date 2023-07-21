@@ -18,7 +18,7 @@ const CoinBro = () => {
       </Container>
       <Container className={classes['inner-container']}>
         <Row className="justify-content-md-center">
-          <Col xs={5} className={classes.col}>
+          <Col className={classes.col}>
             <h3 className={classes['header-project']}>COINBRO 🥮</h3>
             <p className={classes['project-info']}>
               CoinBro is a Crypto app that allows users keep track of the
@@ -40,7 +40,7 @@ const CoinBro = () => {
               </a>
             </i>
           </Col>
-          <Col xs={5} className={classes.colimg}>
+          <Col className={classes.colimg}>
             <img src={crypto} alt="workplace" className={classes.workplace} />
           </Col>
         </Row>
