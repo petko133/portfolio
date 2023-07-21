@@ -1,0 +1,30 @@
+.background{
+	background-color: black;
+}
+
+.container{
+	display: flex;
+	height: 100px;
+}
+
+.copyright{
+	font-size: 2rem;
+	margin: auto;
+	margin-left: 2rem;
+	color: white;
+	text-align: start;
+}
+
+.links{
+	margin-right: 2rem;
+	display: flex;
+	align-items: start;
+	text-align: start;
+}
+
+.link{
+	margin: auto;	
+	color: white;
+	height: 2rem;
+	margin-right: 0.8rem;
+}

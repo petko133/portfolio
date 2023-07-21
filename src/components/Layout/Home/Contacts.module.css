@@ -1,0 +1,55 @@
+.container{
+	margin-top: 15rem;
+	margin-bottom: 10rem;
+	max-width: 80%;
+}
+
+.projects-header{
+	padding-left: 24px;
+	margin-bottom: 5rem;
+}
+
+.projects{
+	color: rgb(0, 102, 255);
+	text-align: start;
+	font-size: 1.2rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+
+.header{
+	text-align: start;
+	font-size: 1.65rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+
+.icons{
+	color: rgb(0, 102, 255);
+	height: 3rem;
+	margin-right: 0.8rem;
+	display: flex;
+	text-decoration: none;
+	font-style: normal;
+}
+
+.contacts-row{
+	margin-top: 4rem;
+	text-align: start;
+}
+
+.header-contacts{
+	margin-bottom: 0rem;
+	text-align: start;
+	font-size: 1.3rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+
+.contacts-info{
+	text-align: start;
+	margin: 0;
+	font-weight: 400;
+	color: gray;
+	font-size: 1.1rem;
+}
