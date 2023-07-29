@@ -18,7 +18,7 @@ const Banner = () => {
   return (
     <Container className={classes['banner-container']} id='banner'>
       <Row className="justify-content-md-center">
-        <Col xs={5} className={classes.col}>
+        <Col className={classes.col}>
           <Container className="justify-content-md-start">
             <h1 className={classes.header}>Full Stack Web Developer 👋🏻</h1>
             <p className={classes.description}>
@@ -38,7 +38,7 @@ const Banner = () => {
             </i>
           </Container>
         </Col>
-        <Col xs={5} className={classes.col}>
+        <Col className={classes.col}>
           <img src={photo} alt="petko" className={classes.photo} />
         </Col>
       </Row>
