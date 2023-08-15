@@ -1,7 +1,6 @@
 .container {
-  margin-top: 15rem;
+  margin-top: 10rem;
   margin-bottom: 10rem;
-  max-width: 80%;
 }
 
 .inner-container {
@@ -10,7 +9,7 @@
 }
 
 .inner-container:hover {
-  transform: scale(1.2);
+  transform: scale(1.15);
 }
 
 .projects-header {
