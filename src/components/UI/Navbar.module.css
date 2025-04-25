@@ -1,11 +1,21 @@
-.brand{
+.brand {
 	font-size: 1.5rem;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
 }
 
-.links{
+.links {
 	font-size: 1rem;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
+}
+
+.navbarHide {
+	top: -10rem;
+}
+.navbarShow {
+	/* top: -10rem; */
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 1250ms;
 }

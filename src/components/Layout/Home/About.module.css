@@ -1,32 +1,32 @@
-.container{
+.container {
 	margin-bottom: 10rem;
 }
 
-.col{
+.col {
 	text-align: start;
 	margin: auto;
 	margin-top: 1rem;
 }
 
-.colimg{
+.colimg {
 	margin: auto;
-	margin-top: 1rem;	
+	margin-top: 1rem;
 }
 
-.workplace{
+.workplace {
 	height: 300px;
 	border-radius: 25px;
 	box-shadow: 1px 1px 9px 1px;
 }
 
-.header{
+.header {
 	text-align: start;
 	font-size: 1.65rem;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
 }
 
-.about{
+.about {
 	color: rgb(0, 102, 255);
 	text-align: start;
 	font-size: 1.2rem;
@@ -34,8 +34,15 @@
 	font-weight: 600;
 }
 
-.about-info{
+.about-info {
 	font-weight: 400;
 	color: gray;
 	font-size: 1.1rem;
+}
+
+.anchor {
+	display: block;
+	height: 92px;
+	margin-top: -92px;
+	visibility: hidden;
 }

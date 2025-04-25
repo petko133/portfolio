@@ -11,7 +11,7 @@ import ht from '../../../assets/images/icons8-html5-48.png';
 import boot from '../../../assets/images/icons8-bootstrap-48.png';
 import python from '../../../assets/images/icons8-python-48.png';
 import linux from '../../../assets/images/icons8-linux-48.png';
-import nextjs from '../../../assets/images/nextjs-icon.svg';
+import nextjs from '../../../assets/images/nextjs-icon.png';
 import classes from './Banner.module.css';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { motion, useInView, useAnimation } from 'framer-motion';
@@ -49,12 +49,11 @@ const Banner = () => {
 					<Col className={classes.col}>
 						<Container className='justify-content-md-start'>
 							<h1 className={classes.header}>
-								Full Stack Web Developer 👋🏻
+								Frontend Developer
 							</h1>
 							<p className={classes.description}>
-								Hi, I'm Petko Georgiev. A passionate begginer
-								Full Stack Developer based in Plovdiv, Bulgaria.
-								📍
+								Hi, I'm Petko Georgiev. A passionate Frontend
+								Developer based in Plovdiv, Bulgaria. 📍
 							</p>
 							<i className={classes.links}>
 								<a
