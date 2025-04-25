@@ -6,6 +6,8 @@ import Container from 'react-bootstrap/Container';
 import classes from './Projects.module.css';
 import ShopApp from './Projects/ShopApp';
 import { motion, useInView, useAnimation } from 'framer-motion';
+import Opti from './Projects/Opti';
+import Uniko from './Projects/Uniko';
 
 const Projects = () => {
 	const ref = useRef(null);
@@ -34,15 +36,26 @@ const Projects = () => {
 				>
 					<Container className={classes.container}>
 						<span className={classes.anchor} id='projects'></span>
+
 						<Container className={classes['projects-header']}>
 							<h5 className={classes.projects}>PROJECTS</h5>
 							<h3 className={classes.header}>
-								Some of my Projects with more to come. 🧩
+								Some of the Work Projects I've worked on. 🧩
+							</h3>
+						</Container>
+						<Opti />
+						<Uniko />
+					</Container>
+					<Container className={classes.container}>
+						<Container className={classes['projects-header']}>
+							<h5 className={classes.projects}>PROJECTS</h5>
+							<h3 className={classes.header}>
+								Some of my older Projects with more to come. 🧩
 							</h3>
 						</Container>
 						<GymBuddy />
 						<ShopApp />
-						<CoinBro />
+						{/* <CoinBro /> */}
 						<CarRental />
 					</Container>
 				</motion.div>

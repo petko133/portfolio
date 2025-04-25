@@ -1,0 +1,108 @@
+.container {
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+}
+
+.inner-container {
+	max-width: 80%;
+	transition: 0.5s;
+}
+
+.inner-container:hover {
+	transform: scale(1.15);
+}
+
+.projects-header {
+	padding-left: 24px;
+	margin-bottom: 5rem;
+}
+
+.col {
+	text-align: start;
+	margin: auto;
+	margin-top: 1rem;
+}
+
+.colimg {
+	margin: auto;
+	margin-top: 1rem;
+}
+
+.workplace {
+	height: 345px;
+	border-radius: 25px;
+	box-shadow: 1px 1px 9px 1px;
+}
+@media screen and (min-width: 300px) {
+	.workplace {
+		height: 200px;
+	}
+}
+.header {
+	text-align: start;
+	font-size: 1.65rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+
+.projects {
+	color: rgb(0, 102, 255);
+	text-align: start;
+	font-size: 1.2rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+
+.project-info {
+	text-align: start;
+	font-weight: 400;
+	color: gray;
+	font-size: 1.1rem;
+}
+
+.header-project {
+	text-align: start;
+	font-size: 1.65rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+
+.header-demo {
+	text-align: start;
+	font-size: 1.4rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+
+.demo-info {
+	text-align: start;
+	margin: 0;
+	font-weight: 400;
+	color: gray;
+	font-size: 1.1rem;
+}
+
+.links {
+	margin-top: 1rem;
+	display: flex;
+	align-items: start;
+	text-align: start;
+}
+
+.link {
+	color: black;
+	height: 2rem;
+	margin-right: 0.8rem;
+	display: flex;
+	text-decoration: none;
+	font-style: normal;
+}
+
+.icon-text {
+	text-align: start;
+	margin: 0;
+	font-weight: 600;
+	color: black;
+	font-size: 1.1rem;
+	margin-right: 0.5rem;
+}

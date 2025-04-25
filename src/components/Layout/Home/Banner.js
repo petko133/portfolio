@@ -57,12 +57,16 @@ const Banner = () => {
 							</p>
 							<i className={classes.links}>
 								<a
+									target='_blank'
+									rel='noreferrer'
 									className={classes.link}
 									href='https://github.com/petko133'
 								>
 									<FaGithub size='xs' />
 								</a>
 								<a
+									target='_blank'
+									rel='noreferrer'
 									className={classes.link}
 									href='https://www.linkedin.com/in/petko-georgiev-a2ab2723a/'
 								>
