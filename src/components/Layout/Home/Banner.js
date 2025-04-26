@@ -31,11 +31,7 @@ const Banner = () => {
 	}, [isInView]);
 
 	return (
-		<Container
-			ref={ref}
-			className={classes['banner-container']}
-			id='banner'
-		>
+		<Container ref={ref} className={classes['banner-container']}>
 			<motion.div
 				variants={{
 					hidden: { opacity: 0, y: 75 },
@@ -45,6 +41,7 @@ const Banner = () => {
 				animate={filterControls}
 				transition={{ duration: 1, delay: 0.25 }}
 			>
+				<span className={classes.anchor} id='banner'></span>
 				<Row className='justify-content-md-center'>
 					<Col className={classes.col}>
 						<Container className='justify-content-md-start'>

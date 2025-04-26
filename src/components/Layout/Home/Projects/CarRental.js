@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import classes from './CarRental.module.css';
+import classes from './GymBuddy.module.css';
 import crypto from '../../../../assets/images/car-rental.jpg';
 import { FaGithub } from 'react-icons/fa';
 import { FiShare } from 'react-icons/fi';

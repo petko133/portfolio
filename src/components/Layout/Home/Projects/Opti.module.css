@@ -4,12 +4,16 @@
 }
 
 .inner-container {
-	max-width: 80%;
+	padding: 1rem;
+	max-width: 85%;
 	transition: 0.5s;
 }
 
 .inner-container:hover {
 	transform: scale(1.15);
+	padding: 1rem;
+	border-radius: 25px;
+	box-shadow: 0 6px 16px -4px gray;
 }
 
 .projects-header {

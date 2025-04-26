@@ -56,7 +56,7 @@ const About = () => {
 									understanding of back-end technologies such
 									as Node.js, Express, and MongoDB. I'm a
 									passionate developer always looking for the
-									next challenge to grow and improve.I'm
+									next challenge to grow and improve. I'm
 									genuinely excited about building great
 									products and always bring a positive,
 									collaborative attitude to every team I join.

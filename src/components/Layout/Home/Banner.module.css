@@ -1,28 +1,29 @@
-.banner-container{
+.banner-container {
 	margin-top: 15rem;
 	margin-bottom: 15rem;
 }
 
 .photo {
-  margin: var(--r, 20px);
-  height: 350px;
-  border-bottom: none;
-  border-radius: var(--r, 250px) var(--r, 140px) var(--r, 200px) var(--r, 150px);
-  border: 3px solid black;
+	margin: var(--r, 20px);
+	height: 350px;
+	border-bottom: none;
+	border-radius: var(--r, 250px) var(--r, 140px) var(--r, 200px)
+		var(--r, 150px);
+	border: 3px solid black;
 }
 
-.col{
+.col {
 	margin: auto;
 }
 
-.header{
+.header {
 	text-align: start;
 	font-size: 3.5rem;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
 }
 
-.description{
+.description {
 	text-align: start;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
@@ -30,23 +31,23 @@
 	font-size: 1.2rem;
 }
 
-.links{
+.links {
 	display: flex;
 	align-items: start;
 	text-align: start;
 }
 
-.link{
+.link {
 	color: black;
 	height: 2rem;
 	margin-right: 0.8rem;
 }
 
-.container{
+.container {
 	margin: 0 3.7rem;
 }
 
-.stack{
+.stack {
 	margin: auto;
 	margin-top: 2rem;
 	display: flex;
@@ -56,8 +57,15 @@
 	font-weight: 100;
 }
 
-.icons{
+.icons {
 	margin-left: 3rem;
 	width: 48px;
 	height: 48px;
+}
+
+.anchor {
+	display: block;
+	height: 92px;
+	margin-top: -92px;
+	visibility: hidden;
 }

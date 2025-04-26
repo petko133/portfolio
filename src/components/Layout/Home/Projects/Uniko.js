@@ -20,7 +20,7 @@ const Uniko = () => {
 							(SSR) to improve SEO and performance. As part of the
 							modernization, I refactored the front-end using
 							React and TypeScript, and set up Redux Toolkit for
-							efficient and scalable.
+							efficiency and scalability.
 						</p>
 						<i className={classes.links}>
 							<a
